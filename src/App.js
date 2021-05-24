@@ -4,7 +4,7 @@ import {Route, Switch} from 'react-router-dom';
 import {SWrap} from './common/Wrap_styled';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
+import Empty from './components/Empty/Empty';
 import Authorization from './components/Authorization/Authorization';
 
 const App = () => {
@@ -13,7 +13,8 @@ const App = () => {
       <Header />
       <SWrap>
         <Switch>
-          <Route path='/home' component={Home}/>
+          <Route path='/authorization' component={Authorization}/>
+          <Route path='/empty' component={Empty}/>
           <Route path='/authorization' component={Authorization}/>
         </Switch>
       </SWrap>

@@ -1,4 +1,5 @@
 export const nav = [
-    {name: 'Home', route: '/home'},
     {name: 'Authorization', route: '/authorization'},
+    {name: 'Empty', route: '/empty'},
+    {name: 'Page', route: '/authorization'},
 ];
